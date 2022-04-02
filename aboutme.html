@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Hugo 0.88.1" />
+    <title>Siya's Portfolio</title>
+
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.1/examples/cover/"
+    />
+
+    <!-- Bootstrap core CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .scene1 {
+        width: 100%;
+        height: 800px;
+      }
+      .scene2 {
+        width: 100%;
+        height: 700px;
+      }
+
+      .mainContent {
+        padding-top: 10%;
+      }
+
+      .nav-link {
+        color: yellow !important;
+      }
+
+      h3,
+      a {
+        color: yellow;
+      }
+      footer {
+        position: relative;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        color: white;
+        text-align: center;
+      }
+
+      .info1 {
+        margin-top: 15%;
+      }
+
+      .info2 {
+        margin-top: 10%;
+      }
+    </style>
+  </head>
+  <body class="d-flex h-100 text-center text-white bg-dark">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <header class="mb-auto">
+        <div>
+          <h3 class="float-md-start mb-0">Siya's Art</h3>
+          <nav class="nav nav-masthead justify-content-center float-md-end">
+            <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+            <a class="nav-link" href="/art.html">My Art</a>
+            <a class="nav-link" href="/aboutme.html">About Me</a>
+            <a class="nav-link" href="/socials.html">My Socials</a>
+          </nav>
+        </div>
+      </header>
+
+      <main class="px-3 mainContent" id="mainContent">
+        <div class="grid">
+          <div class="row">
+            <div class="col-xl-6">
+              <div class="row">
+                <div class="grid info1">
+                  <div class="row pt-5">
+                    <h1>What made me start a career in art?</h1>
+                  </div>
+                  <div class="row">
+                    <p class="lead d-flex justify-content-center">
+                      Firstly, one of the great influences on my career in art
+                      is my mum. My mum is also an artist who also encouraged me
+                      to pursue my passion in the field of art. It's always nice
+                      to have someone who always supports me and is there to
+                      help me out if there is an issue I would be facing while I
+                      am working on a project of mine.
+                    </p>
+                    <a href="https://www.instagram.com/siyaart_/"
+                      >Press Me to go to my Instagram</a
+                    >
+                    <p class="lead"></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-6">
+              <div id="GLTFContainer" class="scene1"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xl-6">
+              <div id="GLTFContainer" class="scene2"></div>
+            </div>
+            <div class="col-xl-6">
+              <div class="row">
+                <div class="grid info2">
+                  <div class="row pt-5">
+                    <h1>What is my passion for the art that I make?</h1>
+                  </div>
+                  <div class="row">
+                    <p class="lead d-flex justify-content-center">
+                      COLOURS. The world is full of colours, which makes the
+                      whole world beautiful. Colour add personality to the
+                      object. The Colour also depict the cultural difference
+                      between the different regions, which in my opinion brings
+                      the world together. One of the top things for me to paint
+                      is nature. Nature art is always relaxing to draw and opens
+                      up a new perspective to view the world around us.
+                    </p>
+                    <a href="https://www.instagram.com/siyaart_/"
+                      >Press Me to go to my Instagram</a
+                    >
+                    <p class="lead"></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <footer class="mt-auto text-white-50">
+        <p>
+          Portfolio for Shruti
+          <a href="https://www.instagram.com/siyaart_/" class="text-white"
+            >Siya</a
+          >, by <a href="#" class="text-white">Sahil</a>.
+        </p>
+      </footer>
+    </div>
+    <script src="https://unpkg.com/three@0.128.0/build/three.min.js"></script>
+    <script src="https://unpkg.com/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="https://threejs.org/examples/js/controls/OrbitControls.js"></script>
+
+    <script type="module" src="./js/aboutme.js"></script>
+  </body>
+</html>
